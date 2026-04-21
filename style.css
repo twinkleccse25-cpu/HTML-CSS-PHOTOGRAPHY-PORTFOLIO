@@ -1,15 +1,15 @@
 
-/* IMPORT FONT */
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=EB+Garamond:wght@400;500&display=swap');
 
-/* RESET */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* BODY */
+
 body {
     background: #1b1a17;
     color: #e8dccb;
@@ -30,7 +30,6 @@ header h1 {
     color: #d6c3a3;
 }
 
-/* NAV */
 nav {
     text-align: center;
     margin-top: 10px;
@@ -49,7 +48,7 @@ nav a:hover {
     border-bottom: 1px solid #f5e6cc;
 }
 
-/* HERO */
+
 .hero {
     text-align: center;
     padding: 60px 20px;
@@ -78,13 +77,13 @@ nav a:hover {
     box-shadow: 0 0 25px rgba(0,0,0,0.7);
 }
 
-/* SECTION */
+
 section {
     padding: 50px 20px;
     text-align: center;
 }
 
-/* CARDS */
+
 .card {
     display: inline-block;
     margin: 15px;
@@ -101,7 +100,6 @@ section {
     transform: translateY(-5px);
 }
 
-/* GALLERY */
 .gallery {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -121,7 +119,7 @@ section {
     transform: scale(1.03);
 }
 
-/* FORM */
+
 form {
     max-width: 450px;
     margin: auto;
@@ -141,7 +139,7 @@ input, textarea {
     border-radius: 5px;
 }
 
-/* BUTTON */
+
 button {
     padding: 10px;
     width: 100%;
@@ -157,7 +155,7 @@ button:hover {
     background: #7a6f5a;
 }
 
-/* LINKS */
+
 section a {
     color: #d6c3a3;
     text-decoration: none;
@@ -168,7 +166,7 @@ section a:hover {
     color: #f5e6cc;
 }
 
-/* FOOTER */
+
 footer {
     text-align: center;
     padding: 20px;
